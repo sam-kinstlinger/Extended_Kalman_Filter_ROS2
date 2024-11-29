@@ -1,0 +1,8 @@
+ekf_node:
+  ros__parameters:
+    dt: 0.1
+    state_dim: 2
+    control_dim: 1
+    sensor1_noise_cov: 0.01
+    sensor2_noise_cov: 0.02
+    process_noise_cov: 0.01
